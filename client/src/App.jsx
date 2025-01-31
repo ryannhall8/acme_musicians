@@ -20,6 +20,9 @@ function App() {
               return (
                 <li key={ musician.id }>
                   { musician.name }
+                  <ul>
+                  { musician.genre }
+                  </ul>
                 </li>
               )
             })
